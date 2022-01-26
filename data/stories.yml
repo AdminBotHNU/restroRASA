@@ -38,3 +38,8 @@ stories:
   - intent: deny
   - intent: mood_unhappy
   - action: utter_goodbye 
+  
+- story: testing path 2
+  steps:
+  - intent: affirm
+  - action: utter_cheer_up
