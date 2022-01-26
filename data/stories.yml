@@ -31,7 +31,6 @@ stories:
   
 - story: testing path 1
   steps:
-  - intent: greet
   - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
