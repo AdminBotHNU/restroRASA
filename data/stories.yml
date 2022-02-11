@@ -41,3 +41,8 @@ stories:
   - action: utter_greet
   - action: utter_cheer_up
   - intent: deny
+  
+- story: testing path 1
+  steps:
+  - intent: affirm
+  - action: utter_cheer_up
